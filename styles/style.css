@@ -243,7 +243,7 @@ main .action section button:hover {
     box-shadow: 1px 1px 31px 0px #000000;
     background: #FFB805;
 
-    /* ai khankar border shasow ami ai khan theke nisi (https://htmlcheatsheet.com/css/) kono chatGpt or ai help nei ni  */
+    /* ai khankar border shasow ami ai khan theke niesi (https://htmlcheatsheet.com/css/) kono chatGpt or ai help nei ni  */
     /* transition: all linear 0.3s; */
 }
 
@@ -515,12 +515,15 @@ main .touch-section section textarea {
     font-style: normal;
     font-size: 20px;
     padding-left: 10px;
+    padding-top: 20px;
     color: #4E47FF;
     border-radius: 10px;
     border: 0.5px solid #b3b3b3;
    width: 497px;
     height: 135px;
     margin: 5px 0 20px 0;
+    resize: none;
+
 
       
  
@@ -531,6 +534,7 @@ main .touch-section section button{
     width: 507px;
     margin-bottom: 85px;
     transition: all linear 0.3s;
+    cursor: pointer;
 
 }
 
@@ -539,4 +543,51 @@ main .touch-section section button:hover{
     box-shadow: 1px 1px 31px 0px #000000;
     background: #FFB805;
     font-size: 18px;
+}
+
+
+footer .website-name{
+    width: 100%;
+    background: #fff;
+    border-top: 0.5px solid #e7e7e7;
+    margin-bottom: 147px;
+}
+
+footer .website-name .continer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .website-name .continer h2{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-top: 104px;
+}
+
+
+footer .website-name .continer p{
+    font-size: 20px;
+    color: rgb(146, 142, 142)
+}
+footer .website-name .continer ul{
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+}
+footer .website-name .continer ul li a{
+    
+     font-size: 20px;
+    color: rgb(146, 142, 142);
+    transition: all linear 0.3s;
+    
+    
+}
+
+
+footer .website-name .continer ul li:hover a{
+    
+    color: #FFB805;
+    font-weight: 700;
+    
 }
