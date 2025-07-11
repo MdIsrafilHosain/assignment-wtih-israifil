@@ -446,3 +446,97 @@ main .focusbater img{
     height: 364.77px;
     border-radius: 48px;
 }
+
+
+
+
+
+
+main .touch-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+main .touch-section section h4{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+
+main .touch-section section label{
+    font-size: 18px;
+    font-weight: 500; 
+    color: #000000;
+}
+
+
+main .touch-section section input[type="email"] {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #4E47FF;
+
+      
+ 
+}
+
+main .touch-section section input[type="text"] {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #4E47FF;
+      
+ 
+}
+
+main .touch-section section input{
+   
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    border: 0.5px solid #b3b3b3;
+    margin: 5px 0 20px 0;
+}
+main .touch-section section input::placeholder{
+    
+    font-size: 20px;
+
+    
+}
+
+main .touch-section section textarea {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #4E47FF;
+    border-radius: 10px;
+    border: 0.5px solid #b3b3b3;
+   width: 497px;
+    height: 135px;
+    margin: 5px 0 20px 0;
+
+      
+ 
+}
+
+
+main .touch-section section button{
+    width: 507px;
+    margin-bottom: 85px;
+    transition: all linear 0.3s;
+
+}
+
+main .touch-section section button:hover{
+    -webkit-box-shadow: 1px 1px 31px 0px #000000;
+    box-shadow: 1px 1px 31px 0px #000000;
+    background: #FFB805;
+    font-size: 18px;
+}
