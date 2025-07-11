@@ -12,8 +12,11 @@ a {
 }
 
 /* common styel atribiute end */
+body{
+    background: hsla(242, 100%, 64%, 0.05);
+}
 .fix-container {
-    width: 1300px;
+    width: 1140px;
     margin: 0 auto;
     /* background: rgba(0, 0, 0, 0.404); */
 }
@@ -54,6 +57,7 @@ a {
     background-image: url(../images/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 
 header nav {
@@ -251,3 +255,117 @@ main .action section img{
     height: 328;
     border-radius: 48px;
 }
+
+main .productive-users-sectin{
+    margin-bottom: 120px;
+}
+main .productive-users-sectin .background-color{
+    background: hwb(242 28% 0% / 0.10);
+    border-radius: 24px;
+    height: 306px;
+    
+}
+
+main .productive-users-sectin .background-color h3{
+    padding-top: 50px;
+    font-size: 38px;
+    color: #252432;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+main .productive-users-sectin .background-color .subtitle{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+main .productive-users-sectin .background-color .subtitle section h4{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+main .productive-users-sectin .background-color .subtitle section p{
+    color: #00000080;
+    font-size: 20px;
+}
+.users-feedback-section{
+    margin-bottom:137px ;
+}
+.users-feedback-section h5{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+
+.users-feedback-section .side{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.users-feedback-section .users-feedback {
+    width: 366.67px;
+    height: 243px;
+    background: lch(100% 0.01 296.81 / 0.50);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.users-feedback-section .users-feedback .m2 {
+    margin-left: 24px;
+}
+
+.users-feedback-section .users-feedback section i{
+    width: 20px;
+    height: 20px;
+    color: #FFB805;
+    margin-bottom: 24px;
+    margin-top: 24px;
+
+}
+
+.users-feedback-section .users-feedback section h2{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.users-feedback-section .users-feedback section p{
+    font-size: 17px;
+    color: #000000be;
+    margin-bottom: 24px;
+
+   
+}
+.users-feedback-section .users-feedback section .reviewer-image-section {
+    display: flex;
+   
+}
+
+.users-feedback-section .users-feedback section .reviewer-image-section section img{
+    border-radius: 50%;
+     height: 40px;
+    width: 40px;
+}
+.users-feedback-section .users-feedback section .reviewer-image-section section p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #696060;
+    margin-left: 14px;
+
+}
+
+.users-feedback-section .users-feedback section .reviewer-image-section section span{
+    margin: 0;
+    font-size: 16px;
+    /* font-weight: bold; */
+    color: #696060;
+    margin-left: 14px;
+
+
+}
+
+
