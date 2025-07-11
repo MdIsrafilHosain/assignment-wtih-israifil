@@ -15,8 +15,10 @@ a {
 .fix-container {
     width: 1300px;
     margin: 0 auto;
+    /* background: rgba(0, 0, 0, 0.404); */
 }
-.a{
+
+.a {
     display: inline-block;
     height: 48px;
     line-height: 48px;
@@ -24,7 +26,8 @@ a {
     color: #ffffff;
     font-weight: bold;
 }
-.btn{
+
+.btn {
     border: none;
     height: 48px;
     background: #4E47FF;
@@ -57,7 +60,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 51px 150px;
+    padding: 51px 180px;
 
 
 }
@@ -69,9 +72,10 @@ header nav section h1 {
     text-transform: uppercase;
 }
 
-header nav section h1 a{
+header nav section h1 a {
     color: #4E47FF;
 }
+
 /* 
 header nav section .sign-up {
     width: 132px;
@@ -140,27 +144,27 @@ header nav section button:hover a {
 
 }
 
-.heading-contain{
+.heading-contain {
     display: flex;
-   flex-direction: column;
-   align-items: center;
-   text-align: center;
-   padding-bottom: 250px;
-   padding-top: 215px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 250px;
+    padding-top: 215px;
 }
 
-.heading-contain section h1{
+.heading-contain section h1 {
     font-size: 65px;
 }
 
-.heading-contain section button{
+.heading-contain section button {
     margin-top: 85px;
-        transition: all linear 0.3s;
-        
+    transition: all linear 0.3s;
+
 
 }
 
-.heading-contain section button a{
+.heading-contain section button a {
     width: 174px;
     transition: all linear 0.3s;
     font-weight: bold;
@@ -170,15 +174,80 @@ header nav section button:hover a {
 }
 
 
-.heading-contain section button:hover{
+.heading-contain section button:hover {
     -webkit-box-shadow: 1px 1px 31px 0px #000000;
     box-shadow: 1px 1px 31px 0px #000000;
     /* ai khankar border shasow ami ai khan theke nisi (https://htmlcheatsheet.com/css/) kono chatGpt or ai help nei ni  */
-        /* transition: all linear 0.3s; */
+    /* transition: all linear 0.3s; */
 
 
 }
 
-.heading-contain section button:hover a{
+.heading-contain section button:hover a {
     font-size: 18px;
+}
+
+
+main .action {
+    margin: 120px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .action section h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    padding-bottom: 23px;
+}
+
+main .action section p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #25243250;
+    padding-bottom: 23px;
+    
+}
+
+main .action section button {
+    width: 229px;
+    transition: all linear 0.3s;
+}
+
+main .action section button {
+    width: 229px;
+    transition: all linear 0.3s;
+}
+
+
+
+main .action section button a {
+    width: 229px;
+    transition: all linear 0.3s;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 48px;
+}
+
+
+
+main .action section button:hover {
+    -webkit-box-shadow: 1px 1px 31px 0px #000000;
+    box-shadow: 1px 1px 31px 0px #000000;
+    
+    /* ai khankar border shasow ami ai khan theke nisi (https://htmlcheatsheet.com/css/) kono chatGpt or ai help nei ni  */
+    /* transition: all linear 0.3s; */
+}
+
+
+
+main .action section button:hover a {
+    font-size: 18px;
+}
+
+
+main .action section img{
+    width: 403px;
+    height: 328;
+    border-radius: 48px;
 }
